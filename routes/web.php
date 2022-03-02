@@ -24,4 +24,4 @@ Route::get('/hello/{name}', function (string $name) {
 
 Route::get('/news', [NewsController::class, 'index']);
 
-
+Route::get('/news/{id}', [NewsController::class, 'show']);
