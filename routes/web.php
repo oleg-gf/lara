@@ -21,6 +21,3 @@ Route::get('/hello/{name}', function (string $name) {
     return "Hello, {$name}";
 });
 
-Route::get('/hello/{news}', function (string $news) {
-    return "Новости";
-});
