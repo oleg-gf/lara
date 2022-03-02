@@ -21,4 +21,7 @@ Route::get('/hello/{name}', function (string $name) {
     return "Hello, {$name}";
 });
 
+
 Route::get('/news', [NewsController::class, 'index']);
+
+
