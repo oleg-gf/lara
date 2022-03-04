@@ -14,7 +14,7 @@ class NewsController extends Controller
      */
     public function index()
     {
-        //
+        echo 'Список новостей';
     }
 
     /**
@@ -24,7 +24,7 @@ class NewsController extends Controller
      */
     public function create()
     {
-        //
+        echo 'Добавление новостей';
     }
 
     /**
