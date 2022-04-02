@@ -34,7 +34,7 @@ class Controller extends BaseController
                 'author' => $faker->userName(),
                 'image' => $faker->imageUrl(250, 170),
                 'status' => $statusList[mt_rand(0,2)],
-                'description'  => $faker->text(100),
+                'description'  => $faker->text(100)  ,
             ];
         }
         return $data;
