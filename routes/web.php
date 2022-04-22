@@ -20,9 +20,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello/{name}', function (string $name) {
-    return "Hello, {$name}";
-});
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
 
 
